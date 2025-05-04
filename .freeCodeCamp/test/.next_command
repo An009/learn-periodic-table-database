@@ -325,3 +325,7 @@ git git status
 git status
 git add element.sh
 git commit -m "fix: fixing small bugs"
+pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
+git status
+git add .
+git commit -m "chore: adding database structure"
